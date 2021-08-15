@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.baseURL = 'https://twitter-api-backend1.herokuapp.com/';
 
 ReactDOM.render(
   <React.StrictMode>
